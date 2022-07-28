@@ -79,15 +79,7 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="row y-middle">
-                <div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
-                    <ul class="copy-right-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="faqs.html">Faqs</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
+                <div class="col-md-12">
                     <div class="copyright text-lg-start text-center ">
                         <p>© 2021 Hackaton-71. All Rights Reserved.</p>
                     </div>
