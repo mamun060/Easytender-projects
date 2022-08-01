@@ -4,11 +4,12 @@
             <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12 md-mb-10">
                     <div class="footer-logo mb-40">
-                        <a href="index.html"><img src="{{ asset('frontend/images/logo.png')}}" alt=""></a>
+                        <a href="{{URL('/')}}"><img src="{{ asset('frontend/images/logo/Easy-Vat-Logo2.png')}}" alt="logo"></a>
                     </div>
                     <div class="textwidget white-color pb-40">
-                        <p>We denounce with righteous indig nation in and dislike men who are so beguiled and to
-                            demo realized by the, so blinded by desire, that they cannot foresee.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla consequatur deserunt sint iure aperiam vero?
+                        </p>
                     </div>
                     <ul class="footer-social md-mb-30">
                         <li>
@@ -37,42 +38,56 @@
                         <li><a href="manage-investment.html">Manage investment</a></li>
                     </ul>
                 </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12 md-mb-10">
+                    <h3 class="footer-title">Important Link</h3>
+                    <ul class="site-map">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="{{URL('/about-us')}}">About</a>
+                        </li>
+                        <li>
+                            <a href="{{ URL('/contact-us')}}">Contact Us</a>
+                        </li>
+                        <li>
+                           <a href="#">Our Services</a>
+                        </li>
+                        <li>
+                           <a href="#">Latest Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
                 <div class="col-lg-3 col-md-12 col-sm-12 md-mb-10">
                     <h3 class="footer-title">Contact Info</h3>
                     <ul class="address-widget">
                         <li>
                             <i class="flaticon-location"></i>
-                            <div class="desc">Ta-134/A, Gulshan Badda<br>
-                                Link Rd, Dhaka</div>
+                            <div class="desc">Bangladash , Dhaka , Barguna</div>
                         </li>
                         <li>
                             <i class="flaticon-call"></i>
                             <div class="desc">
-                                <a href="tel:(+880)15569569365">(+880)155 69569 365</a>
+                                <a href="tel:+8801711059282">+8801711059282</a>
                             </div>
                         </li>
                         <li>
                             <i class="flaticon-email"></i>
                             <div class="desc">
-                                <a href="mailto:support@rstheme.com">support@rstheme.com</a>
+                                <a href="mailto:support@rstheme.com">support@easytender.net</a>
                             </div>
                         </li>
                         <li>
                             <i class="flaticon-clock-1"></i>
                             <div class="desc">
-                                Office Hours: 8AM - 11PM
+                                Office Hours: 10AM - 8PM
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-12 col-sm-12">
-                    <h3 class="footer-title">Newsletter</h3>
-                    <p class="widget-desc white-color">Stay up to update with our latest news and products.</p>
-                    <p>
-                        <input type="email" name="EMAIL" placeholder="Your email address" required="">
-                        <input type="submit" value="Subscribe Now">
-                    </p>
-                </div>
+             
             </div>
         </div>
     </div>

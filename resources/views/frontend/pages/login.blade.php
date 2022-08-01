@@ -1,19 +1,19 @@
 @extends('frontend.layouts.master')
 
-@section('title', 'Login');
+@section('title', 'Login')
 
 @section('content')
 
   <!-- My Account Section Start -->
-    <div class="rs-my-account pt-100 pb-100 md-pt-70 md-pb-70">
+    <div class="rs-my-account pt-20 pb-20 md-pt-70 md-pb-70">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3"></div>
-                <div class="col-lg-6 md-mb-50 shadow p-5">
+                <div class="col-lg-6 md-mb-50 shadow p-4">
                     <h2 class="title pb-30 md-pb-15">Login</h2>
                     <div class="rs-login">
                         <div class="form-group mb-30">
-                            <label>Username or email address<span>*</span></label>
+                            <label>Phone<span>*</span></label>
                             <input id="fname" name="fname" class="form-control-mod" type="text" required=""> 
                             <label>Password <span>*</span></label>
                             <input id="tname" name="text" class="form-control-mod" type="text" required="">

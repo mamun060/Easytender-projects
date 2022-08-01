@@ -8,12 +8,9 @@
         <div class="container">
             <div class="breadcrumbs-inner">
                 <h1 class="page-title">
-                    Have questions - contact us
-                    <span class="watermark">Contact</span>
+                    Contact us
+                    <span class="watermark">Contact Us</span>
                 </h1>
-                <span class="sub-text">Excepteur sint occaecat cupidatat non proident, sunt in coulpa qui official
-                    modeserunt<br>
-                    mollit anim id est laborum 20 years experience.</span>
             </div>
         </div>
     </div>
@@ -31,10 +28,8 @@
                 <div class="col-lg-6">
                     <div class="sec-title mb-45 md-mb-25">
                         <h2 class="title pb-20">
-                            Let us help your business to move <span>forward.</span>
+                            Send a query
                         </h2>
-                        <p class="margin-0">We donec pulvinar magna id leoersi pellentesque impered dignissim
-                            rhoncus euismod euismod eros vitae..</p>
                     </div>
                     <div class="contact-wrap">
                         <div id="form-messages"></div>
@@ -79,50 +74,36 @@
             <div class="container">
                 <div class="contact-icons-style box-address pt-100 md-pt-70">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-6 md-mb-30">
+                        <div class="col-lg-4 col-md-6 col-sm-6 md-mb-30">
                             <div class="contact-item">
                                 <div class="contact-icon">
                                     <img src="{{ asset('frontend/images/contact/icons/1.png')}}" alt="images">
                                 </div>
                                 <div class="content-text">
-                                    <h2 class="title"><a href="#">USA office</a></h2>
-                                    <p class="services-txt">55 Gerad Lane,<br>
-                                        NY 11201, USA</p>
+                                    <h2 class="title"><a href="#">Office</a></h2>
+                                    <p class="services-txt">Bangladash , Dhaka , Barguna
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 xs-mb-30">
-                            <div class="contact-item">
-                                <div class="contact-icon">
-                                    <img src="{{ asset('frontend/images/contact/icons/2.png')}}" alt="images">
-                                </div>
-                                <div class="content-text">
-                                    <h2 class="title"><a href="#">BD office</a></h2>
-                                    <p class="services-txt">Ta-134/A, Link<br> Road, Gulshan-1</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 xs-mb-30">
+                        <div class="col-lg-4 col-md-6 col-sm-6 xs-mb-30">
                             <div class="contact-item">
                                 <div class="contact-icon">
                                     <img src="{{ asset('frontend/images/contact/icons/3.png')}}" alt="images">
                                 </div>
                                 <div class="content-text">
                                     <h2 class="title"><a href="#">Email us</a></h2>
-                                    <a href="mailto:test@gamil.com">test@gamil.com</a><br>
-                                    <a href="mailto:test2@gamil.com">test2@gamil.com</a>
+                                    <a href="mailto:support@easytender.net">support@easytender.net</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="contact-item">
                                 <div class="contact-icon">
                                     <img src="{{ asset('frontend/images/contact/icons/4.png')}}" alt="images">
                                 </div>
                                 <div class="content-text">
                                     <h2 class="title"><a href="#">Call us</a></h2>
-                                    <a href="tel:(+088)589-8745">(+088) 589-8745</a><br>
-                                    <a href="tel:(+088)222-9999">(+088) 222-9999</a>
+                                    <a href="tel:+8801711059282">+8801711059282</a>
                                 </div>
                             </div>
                         </div>

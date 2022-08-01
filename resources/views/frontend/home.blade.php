@@ -4,41 +4,25 @@
 
 @section('content')
     <!-- Slider Start -->
-    <div id="rs-slider" class="rs-slider slider3">
-        <div class="bend niceties">
-            <div id="nivoSlider" class="slides">
-                <img src="{{ asset('frontend/images/slider/h2-sl1.webp')}}" alt="" title="#slide-1" />
-                <img src="{{ asset('frontend/images/slider/h2-sl2.webp')}}" alt="" title="#slide-2" />
-            </div>
-            <!-- Slide 1 -->
-            <div id="slide-1" class="slider-direction">
-                <div class="content-part">
-                    <div class="container">
-                        <div class="slider-des">
-                            <div class="sl-subtitle">Sustainable Finance</div>
-                            <h1 class="sl-title">We transform <br>your business </h1>
-                        </div>
-                        <div class="desc">Excepteur sint cupidatat non proident, sunt in coulpa qui official mollit
-                            anim id est laborum 20 years experience.</div>
-                        <div class="slider-bottom ">
-                            <a class="readon consultant slider" href="contact.html">Discover More</a>
+    <div class="rs-banner banner-style6">
+        <div class="container">
+            <div class="row y-middle">
+                <div class="col-lg-5 col-md-7">
+                    <div class="sec-title4 mb-30">
+                        <div class="sub-title">Welcome To</div>
+                        <h2 class="title primary-color">Easy VAT</h2>
+                        <div class="desc left-line-v">
+                            <div class="draw-line start-draw"></div>
+                            Praesent eu dolor eu orci vehicula euismod. Vivamus sed sollicitudin libero, vel malesuada velit. Nullam et maximus lorem. Suspendisse maximus.
                         </div>
                     </div>
+                    <div class="btn-area">
+                        <a class="readon2" href="#">All Tender<div class="btn-arrow"></div></a>
+                    </div>
                 </div>
-            </div>
-            <!-- Slide 2 -->
-            <div id="slide-2" class="slider-direction">
-                <div class="content-part">
-                    <div class="container">
-                        <div class="slider-des">
-                            <div class="sl-subtitle">Discover your business</div>
-                            <h1 class="sl-title">We Promote <br>Your Business</h1>
-                        </div>
-                        <div class="desc">Excepteur sint cupidatat non proident, sunt in coulpa qui official mollit
-                            anim id est laborum 20 years experience.</div>
-                        <div class="slider-bottom ">
-                            <a class="readon consultant" href="contact.html">Discover More</a>
-                        </div>
+                <div class="col-md-5 col-lg-7">
+                    <div class="custom-tender-vector-file">
+                        <img src="{{ asset('frontend/images/hero/vat vactor.webp')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -265,162 +249,6 @@
         <!-- Partner Section End -->
     </div>
     <!-- About Section Start -->
-
-    <!-- Services Section Start -->
-    <div class="rs-services home-style2 gray-bg pt-100 pb-100 md-pt-70 md-pb-70">
-        <div class="container">
-            <div class="sec-title2 text-center md-left mb-40">
-                <div class="sub-text">Why Choose Us</div>
-                <h2 class="title">Get our services & drive more <br><span>customers.</span></h2>
-            </div>
-            <div class="row y-middle">
-                <div class="col-lg-4  md-mb-50 pr-30 md-pr-l5">
-                    <div class="services-item mb-45">
-                        <div class="services-icon">
-                            <img src="{{ asset('frontend/images/services/style3/1.png')}}" alt="Images">
-                        </div>
-                        <div class="services-text">
-                            <h3 class="title"><a href="services-style1.html">Expert peoples</a></h3>
-                            <p class="services-txt">Quisque placerat vitae ut scelerise consulting.</p>
-                        </div>
-                    </div>
-                    <div class="services-item mb-45">
-                        <div class="services-icon">
-                            <img src="{{ asset('frontend/images/services/style3/2.png')}}" alt="Images">
-                        </div>
-                        <div class="services-text">
-                            <h3 class="title"><a href="services-style1.html">Big experience</a></h3>
-                            <p class="services-txt">Quisque placerat vitae ut scelerise consulting.</p>
-                        </div>
-                    </div>
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="{{ asset('frontend/images/services/style3/3.png')}}" alt="Images">
-                        </div>
-                        <div class="services-text">
-                            <h3 class="title"><a href="services-style1.html">Financial control</a></h3>
-                            <p class="services-txt">Quisque placerat vitae ut scelerise consulting.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4  md-mb-50">
-                    <div class="rs-videos choose-video">
-                        <div class="images-video">
-                            <img src="{{ asset('frontend/images/choose/choose-2.png')}}" alt="images">
-                        </div>
-                        <div class="animate-border">
-                            <a class="popup-border" href="https://www.youtube.com/watch?v=FMvA5fyZ338">
-                                <i class="fa fa-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 pl-40 md-pl-15">
-                    <div class="services-item mb-45">
-                        <div class="services-icon">
-                            <img src="{{ asset('frontend/images/services/style3/4.png')}}" alt="Images">
-                        </div>
-                        <div class="services-text">
-                            <h3 class="title"><a href="services-style1.html">Committed quality</a></h3>
-                            <p class="services-txt">Quisque placerat vitae ut scelerise consulting.</p>
-                        </div>
-                    </div>
-                    <div class="services-item mb-45">
-                        <div class="services-icon">
-                            <img src="{{ asset('frontend/images/services/style3/5.png')}}" alt="Images">
-                        </div>
-                        <div class="services-text">
-                            <h3 class="title"><a href="services-style1.html">Award winning</a></h3>
-                            <p class="services-txt">Quisque placerat vitae ut scelerise consulting.</p>
-                        </div>
-                    </div>
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="{{ asset('frontend/images/services/style3/6.png')}}" alt="Images">
-                        </div>
-                        <div class="services-text">
-                            <h3 class="title"><a href="services-style1.html">Insurance Policy</a></h3>
-                            <p class="services-txt">Quisque placerat vitae ut scelerise consulting.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Counter Section End -->
-        <div class="rs-counter style1">
-            <div class="container">
-                <div class="counter-border-top">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-6 md-mb-30">
-                            <div class="counter-area">
-                                <div class="counter-list mb-20">
-                                    <div class="counter-icon">
-                                        <img src="{{ asset('frontend/images/counter/icons/1.png')}}" alt="Counter">
-                                    </div>
-                                    <div class="counter-number">
-                                        <span class="rs-count">582</span>
-                                    </div>
-                                </div>
-                                <div class="content-part">
-                                    <h5 class="title">Projects completed for our respected clients.</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 md-mb-30">
-                            <div class="counter-area">
-                                <div class="counter-list mb-20">
-                                    <div class="counter-icon">
-                                        <img src="{{ asset('frontend/images/counter/icons/2.png')}}" alt="Counter">
-                                    </div>
-                                    <div class="counter-number">
-                                        <span class="rs-count">215</span>
-                                        <span class="prefix">+</span>
-                                    </div>
-                                </div>
-                                <div class="content-part">
-                                    <h5 class="title">Experienced people serving to clients.</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 xs-mb-30">
-                            <div class="counter-area">
-                                <div class="counter-list mb-20">
-                                    <div class="counter-icon">
-                                        <img src="{{ asset('frontend/images/counter/icons/3.png')}}" alt="Counter">
-                                    </div>
-                                    <div class="counter-number">
-                                        <span class="rs-count">25</span>
-                                        <span class="prefix">+</span>
-                                    </div>
-                                </div>
-                                <div class="content-part">
-                                    <h5 class="title">Years experience in business & consulting.</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="counter-area">
-                                <div class="counter-list mb-20">
-                                    <div class="counter-icon">
-                                        <img src="{{ asset('frontend/images/counter/icons/4.png')}}" alt="Counter">
-                                    </div>
-                                    <div class="counter-number">
-                                        <span class="rs-count">70</span>
-                                        <span class="prefix">+</span>
-                                    </div>
-                                </div>
-                                <div class="content-part">
-                                    <h5 class="title">Business & consulting awards won over world.</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Counter Section End -->
-    </div>
-    <!-- Services Section End -->
 
     <!-- Project Section Start -->
     <div class="rs-project style7 pt-100 pb-100 md-pt-70 md-pb-70">

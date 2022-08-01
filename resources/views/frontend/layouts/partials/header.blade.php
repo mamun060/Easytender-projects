@@ -5,29 +5,27 @@
         <div class="topbar-area style1">
             <div class="container custom">
                 <div class="row y-middle">
-                    <div class="col-lg-7">
+                    <div class="col-lg-9">
                         <div class="topbar-contact">
                             <ul>
                                 <li>
                                     <i class="flaticon-email"></i>
-                                    <a href="mailto:info@bizup.com">info@bizup.com</a>
+                                    <a href="mailto:support@easytender.net">support@easytender.net</a>
                                 </li>
                                 <li>
                                     <i class="flaticon-call"></i>
-                                    <a href="tel:(+1)9999999999"> (+1) 9999 999 999</a>
+                                    <a href="tel:+8801711059282"> (+88) 01711059282</a>
                                 </li>
                                 <li>
                                     <i class="flaticon-location"></i>
-                                    55 Gerad Lane, NY 11201, USA
+                                    Bangladash , Dhaka , Barguna
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-5 text-right">
+                    <div class="col-lg-3 text-right">
                         <div class="toolbar-sl-share">
                             <ul>
-                                <li class="opening"> <em><i class="flaticon-clock"></i>Monday - Friday / 8AM -
-                                        11PM</em> </li>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -46,7 +44,7 @@
                     <div class="col-cell header-logo">
                         <div class="logo-area">
                             <a href="{{URL('/')}}">
-                                <img src="{{ asset('frontend/images/logo-dark.png')}}" alt="logo">
+                                <img src="{{ asset('frontend/images/logo/Easy-Vat-Logo.png')}}" alt="logo">
                             </a>
                         </div>
                     </div>
@@ -59,40 +57,23 @@
                                             <a href="{{URL('/')}}">Home</a>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="{{URL('/about-us')}}">About Us</a>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Portfolios</a>
+                                            <a href="#">Tender</a>
                                             <ul class="sub-menu">
-                                                <li><a href="portfolio.html">Portfolio One</a></li>
-                                                <li><a href="portfolio2.html">Portfolio Two</a></li>
-                                                <li><a href="portfolio3.html">Portfolio Three</a></li>
-                                                <li><a href="portfolio4.html">Portfolio Four</a></li>
-                                                <li><a href="portfolio5.html">Portfolio Five</a></li>
-                                                <li><a href="portfolio6.html">Portfolio Six</a></li>
-                                                <li><a href="portfolio7.html">Portfolio Seven</a></li>
-                                                <li><a href="portfolios-filter.html">Portfolios Filter</a></li>
+                                                <li><a href="#">Offer Tender</a></li>
+                                                <li><a href="#">My Tender</a></li>
+                                                <li><a href="#">All Tender</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="#">Services</a>
+                                            <a href="#">Other Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="services-style1.html">Services Style 1</a></li>
-                                                <li><a href="services-style2.html">Services Style 2</a></li>
-                                                <li><a href="business-planning.html">Business Planning</a></li>
-                                                <li><a href="tax-strategy.html">Tax strategy</a></li>
-                                                <li><a href="financial-advices.html">Financial Advices</a></li>
-                                                <li><a href="insurance-strategy.html">Insurance Strategy</a>
-                                                </li>
-                                                <li><a href="start-ups.html">Start Ups</a></li>
-                                                <li><a href="manage-investment.html">Manage Investment</a></li>
+                                                <li><a href="#">Tender Documents Purchase </a></li>
+                                                <li><a href="#">PO Service</a></li>
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a href="blog.html">Blog</a>
-                                        </li>
+                                        
                                         <li class="menu-item-has-children">
-                                            <a href="{{ URL('/contact-us')}}">Contact</a>
+                                            <a href="{{ URL('/login') }}">Login / Rigistration</a>
                                         </li>
                                     </ul> <!-- //.nav-menu -->
                                 </nav>
