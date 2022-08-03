@@ -24,6 +24,18 @@ Route::get('/register', function(){
     return view('frontend.pages.registration');
 });
 
+Route::get('/all-vat', function(){
+    return view('frontend.pages.tender.allvat');
+});
+
+Route::get('/offer-tender', function(){
+    return view('frontend.pages.tender.offertender');
+});
+
+Route::get('/myaccount', function(){
+    return view('frontend.pages.myaccount.userdashboard');
+});
+
 
 // Admin Route list 
 Route::group(['prefix'=>'admins','as'=>'admin.'], function(){

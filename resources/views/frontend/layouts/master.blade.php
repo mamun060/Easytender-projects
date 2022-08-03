@@ -47,7 +47,7 @@
     <div class="offwrap"></div>
 
     <!--Preloader start here-->
-    @include('frontend.layouts.partials.preloader')
+    {{-- @include('frontend.layouts.partials.preloader') --}}
     <!--Preloader area end here-->
 
     <!-- Main content Start -->

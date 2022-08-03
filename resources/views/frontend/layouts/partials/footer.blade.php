@@ -33,9 +33,9 @@
                     <ul class="site-map">
                         <li><a href="business-planning.html">Business planning</a></li>
                         <li><a href="tax-strategy.html">Tax strategy</a></li>
-                        <li><a href="financial-advices.html">Financial advices</a></li>
-                        <li><a href="insurance-strategy.html">Insurance strategy</a></li>
-                        <li><a href="manage-investment.html">Manage investment</a></li>
+                        <li><a href="financial-advices.html">Tender</a></li>
+                        <li><a href="insurance-strategy.html">Vat</a></li>
+                        <li><a href="manage-investment.html">Freelance Service</a></li>
                     </ul>
                 </div>
 

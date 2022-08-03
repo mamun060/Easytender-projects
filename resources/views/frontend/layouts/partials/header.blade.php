@@ -59,9 +59,9 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Tender</a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">Offer Tender</a></li>
+                                                <li><a href="{{ URL('/offer-tender')}}">Offer Tender</a></li>
                                                 <li><a href="#">My Tender</a></li>
-                                                <li><a href="#">All Tender</a></li>
+                                                <li><a href="{{ URL('/all-vat')}}">All Tender</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
@@ -111,102 +111,32 @@
         <nav class="right_menu_togle mobile-navbar-menu" id="mobile-navbar-menu">
           
             <ul class="nav-menu">
-                <li class="menu-item-has-children current-menu-item">
-                    <a href="index.html">Home</a>
+                <li class="rs-mega-menu menu-item-has-children current-menu-item">
+                    <a href="{{URL('/')}}">Home</a>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="#">Tender</a>
                     <ul class="sub-menu">
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Multipages</a>
-                            <ul class="sub-menu">
-                                <li class="active"><a href="index.html">Home One</a></li>
-                                <li><a href="index2.html">Home Two</a></li>
-                                <li><a href="index3.html">Home Three</a></li>
-                                <li><a href="index4.html">Home Four</a></li>
-                                <li><a href="index5.html">Home Five</a></li>
-                                <li><a href="index6.html">Home Six</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Onepages</a>
-                            <ul class="sub-menu">
-                                <li><a href="onepage1.html">Onepage One</a></li>
-                                <li><a href="onepage2.html">Onepage Two</a></li>
-                                <li><a href="onepage3.html">Onepage Three</a></li>
-                                <li><a href="onepage4.html">Onepage Four</a></li>
-                                <li><a href="onepage5.html">Onepage Five</a></li>
-                                <li><a href="onepage6.html">Onepage Six</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="{{ URL('/offer-tender')}}">Offer Tender</a></li>
+                        <li><a href="#">My Tender</a></li>
+                        <li><a href="{{ URL('/all-vat')}}">All Tender</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="#">Pages</a>
+                    <a href="#">Other Services</a>
                     <ul class="sub-menu">
-                        <li><a href="about.html">About</a></li>
-                        <li class="last-item menu-item-has-children">
-                            <a href="#">Shop</a>
-                            <ul class="sub-menu">
-                                <li><a href="shop.html">Shop</a> </li>
-                                <li><a href="shop-single.html">Shop Single</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="my-account.html">My Account</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="pricing-table.html">Pricing Table</a></li>
-                        <li class="last-item menu-item-has-children">
-                            <a href="#">Team</a>
-                            <ul class="sub-menu">
-                                <li><a href="team-style1.html">Team Style 1</a> </li>
-                                <li><a href="team-style2.html">Team Style 2</a></li>
-                                <li><a href="team-style3.html">Team Style 3</a></li>
-                                <li><a href="team-single.html">Team Single</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="appointment.html">Appointment</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                        <li><a href="faqs.html">Faqs</a></li>
-                        <li><a href="partners.html">Partners</a></li>
+                        <li><a href="#">Tender Documents Purchase </a></li>
+                        <li><a href="#">PO Service</a></li>
                     </ul>
                 </li>
+                
                 <li class="menu-item-has-children">
-                    <a href="#">Portfolios</a>
-                    <ul class="sub-menu">
-                        <li><a href="portfolio.html">Portfolio One</a></li>
-                        <li><a href="portfolio2.html">Portfolio Two</a></li>
-                        <li><a href="portfolio3.html">Portfolio Three</a></li>
-                        <li><a href="portfolio4.html">Portfolio Four</a></li>
-                        <li><a href="portfolio5.html">Portfolio Five</a></li>
-                        <li><a href="portfolio6.html">Portfolio Six</a></li>
-                        <li><a href="portfolio7.html">Portfolio Seven</a></li>
-                        <li><a href="portfolios-filter.html">Portfolios Filter</a></li>
-                    </ul>
+                    <a href="{{ URL('/login') }}">Login / Rigistration</a>
                 </li>
-                <li class="menu-item-has-children">
-                    <a href="#">Services</a>
-                    <ul class="sub-menu">
-                        <li><a href="services-style1.html">Services Style 1</a></li>
-                        <li><a href="services-style2.html">Services Style 2</a></li>
-                        <li><a href="business-planning.html">Business Planning</a></li>
-                        <li><a href="tax-strategy.html">Tax strategy</a></li>
-                        <li><a href="financial-advices.html">Financial Advices</a></li>
-                        <li><a href="insurance-strategy.html">Insurance Strategy</a></li>
-                        <li><a href="start-ups.html">Start Ups</a></li>
-                        <li><a href="manage-investment.html">Manage Investment</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="blog.html">Blog</a>
-                </li>
-                <li class="menu-item-has-children">
-                    <a href="#">Contact</a>
-                    <ul class="sub-menu">
-                        <li><a href="contact.html">Contact 1</a></li>
-                        <li><a href="contact2.html">Contact 2</a></li>
-                        <li><a href="contact3.html">Contact 3</a></li>
-                    </ul>
-                </li>
-            </ul> <!-- //.nav-menu -->
-            <div class="canvas-contact">
+            </ul>
+            
+            <!-- //.nav-menu -->
+            {{-- <div class="canvas-contact">
                 <div class="address-area">
                     <div class="address-list">
                         <div class="info-icon">
@@ -236,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </nav>
         <!-- Canvas Menu end -->
     </header>

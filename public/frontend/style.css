@@ -1236,6 +1236,8 @@ blockquote cite:before {
   line-height: 28px;
   font-size: 15px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 .desc {
   font-weight: 500;
@@ -1320,7 +1322,7 @@ blockquote cite:before {
   color: #0a0a0a;
 }
 .sec-title2 .title {
-  font-size: 36px;
+  font-size: 28px;
 }
 .sec-title2 .title span {
   color: #bb0b0b;
@@ -9015,3 +9017,6 @@ body .search-modal .close:hover {
     opacity: 0;
   }
 }
+
+
+/* custom home section client list styling */
