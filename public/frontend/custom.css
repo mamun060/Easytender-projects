@@ -87,6 +87,13 @@
     border: 2px solid #e94d65;
     padding: 5px;
     border-radius: 5px;
+    transition: 0.2s all;
+}
+
+.custom-client-content-style-two span a:hover {
+    transform: scale(1.1);
+    color: #fff;
+    background-color: #e94d65;
 }
 
 
@@ -105,6 +112,13 @@
     border-radius: 5px;
 }
 
+.custom-client-content-style-three span a:hover{
+    color: #fff;
+    background-color: #043D72;
+    border: 2px solid #043D72;
+    border: none;
+}
+
 .custom-client-content-style-three span {
     color: #fff;
 }
@@ -121,6 +135,10 @@
     justify-content: center;
 }
 
+.content-part {
+    text-align: center;
+}
+
 .service-wrap .service-icon {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -129,7 +147,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #06A3DA;
+    background-color: #121212;
     color: #fff;
     border-radius: 2px;
     transform: rotate(-45deg);
@@ -192,8 +210,8 @@
     line-height: 30px;
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    background-color: #2BB1E0;
-    padding: 5px 30px;
+    background-color: #bb0b0b;
+    padding: 5px 20px;
     border-radius: 3px;
 }
 
@@ -227,4 +245,38 @@
 
 .account-menu-list ul li a:hover{
     color: #bb0b0b;
+}
+
+
+/* my offer page css for datatable */
+
+div#example_filter  {
+    text-align: right;
+}
+
+div#example_filter label {
+    text-align: left;
+}
+
+div#example2_filter  {
+    text-align: right;
+}
+
+div#example2_filter label {
+    text-align: left;
+}
+div#example3_filter  {
+    text-align: right;
+}
+
+div#example3_filter label {
+    text-align: left;
+}
+
+div#example4_filter  {
+    text-align: right;
+}
+
+div#example4_filter label {
+    text-align: left;
 }

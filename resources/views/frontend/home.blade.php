@@ -97,9 +97,11 @@
                             </div>
                         </div>
                         <div class="content-part">
-                            <h3 class="title"><a href="#">VAT Ragistration</a></h3>
+                            <h3 class="title"><a href="#">VAT Registration</a></h3>
                             <div class="desc">YOU CAN CREATE ACCOUNT AND SUBMIT OFFER VAT</div>
-                            <button class="btn btn-primary">Registration </button>
+                            <div class="custom-apply-btn">
+                                <a href="#">Registration</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -113,7 +115,9 @@
                         <div class="content-part">
                             <h3 class="title"><a href="#">................</a></h3>
                             <div class="desc">........................................ <br> ...........................</div>
-                            <button class="btn btn-primary">Registration </button>
+                            <div class="custom-apply-btn">
+                                <a href="#">Registration</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -127,7 +131,9 @@
                         <div class="content-part">
                             <h3 class="title"><a href="#">...........</a></h3>
                             <div class="desc">.......................................... <br> ...........................</div>
-                            <button class="btn btn-primary">Registration </button>
+                            <div class="custom-apply-btn">
+                                <a href="#">Registration</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -277,7 +283,7 @@
                             How to post offer VAT
                         </a></h3>
                         <p>
-                            fast time you need ragistration on easytender and you can offer vat or apply vat...
+                            fast time you need regitration on easytender and you can offer vat or apply vat...
                         </p>
                     </div>
                 </div>

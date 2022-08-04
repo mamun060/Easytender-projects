@@ -1150,19 +1150,22 @@ blockquote cite:before {
   opacity: 1;
   transform: unset;
 }
+
 .add-btn {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
-  padding: 10px 40px;
+  padding: 5px 30px;
   border-radius: 3px;
   font-size: 16px;
   font-weight: 500;
   background: #bb0b0b;
   color: #ffffff;
   border: none;
+  margin-right: 15px;
 }
+
 .add-btn:hover {
   opacity: 0.7;
 }
@@ -1888,7 +1891,7 @@ blockquote cite:before {
   position: static;
 }
 .full-width-header .rs-header.style2 .topbar-area {
-  background-color: #bb0b0b;
+  background-color: #e94d65;
 }
 .full-width-header .rs-header.style2 .topbar-area.style1 .topbar-contact li a:hover {
   color: #fff;
@@ -2787,12 +2790,12 @@ body .search-modal .close:hover {
   background-color: #171719;
 }
 .rs-breadcrumbs .breadcrumbs-inner {
-  padding: 100px 0px;
+  padding: 50px 0px;
 }
 .rs-breadcrumbs .breadcrumbs-inner .page-title {
-  font-size: 48px;
+  font-size: 32px;
   line-height: 56px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 10px;
   color: #ffffff;
   position: relative;
@@ -2814,9 +2817,9 @@ body .search-modal .close:hover {
 }
 .rs-breadcrumbs .breadcrumbs-inner .page-title .watermark {
   position: absolute;
-  font-size: 200px;
+  font-size: 72px;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
   font-family: poppins, sans-serif;
   opacity: .05;
   width: 100%;
@@ -3799,11 +3802,22 @@ body .search-modal .close:hover {
   margin: 0;
   color: #454545;
 }
+
 .rs-services.style2 .service-wrap {
   padding: 15px 15px 30px;
   background: #ffffff;
   box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.07);
+  transform: scale(1);
+  transition: 0.2s all;
 }
+
+.rs-services.style2 .service-wrap:hover {
+  padding: 15px 15px 30px;
+  background: #ffffff;
+  box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.07);
+  transform: scale(1.05);
+}
+
 .rs-services.style2 .service-wrap .image-part {
   overflow: hidden;
   margin-bottom: 20px;
@@ -7692,8 +7706,8 @@ body .search-modal .close:hover {
     29. Account Section CSS
 ----------------------------------------*/
 .rs-my-account .title {
-  font-size: 36px;
-  line-height: 46px;
+  font-size: 24px;
+  line-height: 30px;
   font-weight: 700;
   color: #0a0a0a;
   margin: 0;
@@ -7704,24 +7718,29 @@ body .search-modal .close:hover {
   text-align: left;
   border-radius: 5px;
 }
+
 .rs-my-account .rs-login .form-group label {
   display: block;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 400;
   color: #454545;
 }
+
 .rs-my-account .rs-login .form-group label span {
   color: #bb0b0b;
 }
+
 .rs-my-account .rs-login .form-group input {
   width: 100%;
   margin: 0;
   outline: 0;
   line-height: normal;
-  border: 1px solid rgba(54, 54, 54, 0.1);
-  height: 40px;
+  border: 1px solid rgb(170 170 170);
+  height: 30px;
+  border-radius: 5px;
 }
+
 .rs-my-account .rs-login .last-password a {
   font-size: 15px;
   line-height: 26px;

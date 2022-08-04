@@ -61,7 +61,8 @@
                                             <ul class="sub-menu">
                                                 <li><a href="{{ URL('/offer-tender')}}">Offer Tender</a></li>
                                                 <li><a href="#">My Tender</a></li>
-                                                <li><a href="{{ URL('/all-vat')}}">All Tender</a></li>
+                                                <li><a href="{{ URL('/my-offer')}}">My Offer</a></li>
+                                                <li><a href="{{ URL('/all-tender')}}">All Tender</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
@@ -73,7 +74,7 @@
                                         </li>
                                         
                                         <li class="menu-item-has-children">
-                                            <a href="{{ URL('/login') }}">Login / Rigistration</a>
+                                            <a href="{{ URL('/login') }}">Login / Registration</a>
                                         </li>
                                     </ul> <!-- //.nav-menu -->
                                 </nav>
@@ -119,7 +120,7 @@
                     <ul class="sub-menu">
                         <li><a href="{{ URL('/offer-tender')}}">Offer Tender</a></li>
                         <li><a href="#">My Tender</a></li>
-                        <li><a href="{{ URL('/all-vat')}}">All Tender</a></li>
+                        <li><a href="{{ URL('/all-tender')}}">All Tender</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
@@ -131,7 +132,7 @@
                 </li>
                 
                 <li class="menu-item-has-children">
-                    <a href="{{ URL('/login') }}">Login / Rigistration</a>
+                    <a href="{{ URL('/login') }}">Login / Registration </a>
                 </li>
             </ul>
             

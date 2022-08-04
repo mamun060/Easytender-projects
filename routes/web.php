@@ -24,8 +24,8 @@ Route::get('/register', function(){
     return view('frontend.pages.registration');
 });
 
-Route::get('/all-vat', function(){
-    return view('frontend.pages.tender.allvat');
+Route::get('/all-tender', function(){
+    return view('frontend.pages.tender.alltender');
 });
 
 Route::get('/offer-tender', function(){
@@ -34,6 +34,10 @@ Route::get('/offer-tender', function(){
 
 Route::get('/myaccount', function(){
     return view('frontend.pages.myaccount.userdashboard');
+});
+
+Route::get('/my-offer', function(){
+    return view('frontend.pages.tender.myoffer');
 });
 
 

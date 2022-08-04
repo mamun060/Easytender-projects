@@ -29,8 +29,8 @@
                         <input class="form-control-mod" type="number" required=""> 
 
                         <label>Select Method<span>*</span></label>
-                        <select class="form-control" name="" id="">
-                            <option value="">.....</option>
+                        <select class="form-control" name="" id="select_two" style="height: 40px!important">
+                            <option value="">Select Option </option>
                             <option value="">MLT</option>
                             <option value="">MLT</option>
                             <option value="">MLT</option>
@@ -56,5 +56,15 @@
 @endsection
 
 @push('css')
-<link rel="stylesheet" type="text/css" href="{{ asset('frontend/custom.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/custom.css')}}">
+    <link rel="stylesheet" href="{{ asset('frontend/vendor/select2/select2.min.css')}}">
+@endpush
+
+@push('js')
+    <script src="{{ asset('frontend/vendor/select2/select2.min.js')}}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#select_two').select2();
+        });
+    </script>
 @endpush
